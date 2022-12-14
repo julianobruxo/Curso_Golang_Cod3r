@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func login() {
 	fmt.Println("Welcome")
 	var name string
 	time.Sleep(time.Second * 1)
@@ -26,6 +26,8 @@ func main() {
 			continue
 		}
 	}
+}
+func password() {
 	var p int
 
 	fmt.Println("Type your password")
@@ -40,4 +42,9 @@ func main() {
 		}
 	}
 
+}
+
+func main() {
+	login()
+	password()
 }
