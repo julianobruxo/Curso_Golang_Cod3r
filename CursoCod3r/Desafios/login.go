@@ -44,7 +44,7 @@ func password() {
 
 }
 
-func main() {
+func mainLogin() {
 	login()
 	password()
 }
